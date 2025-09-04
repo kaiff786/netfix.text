@@ -1,0 +1,81 @@
+ .Netflix{
+    color: rgb(237, 30, 30);
+    width: 100px;
+     margin: 2px 3px ; 
+     padding: 2%; 
+    /* margin-left: 506px; */
+    cursor: pointer;
+    font-style:oblique;
+ }
+
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(WhatsApp\ Image\ 2025-08-29\ at\ 19.31.39_a397c199.jpg);
+
+}
+.navbar{
+    display: flex;
+}
+.nav-search{
+   margin-top: 20px;
+   margin-left: 50px; 
+   display: flex;
+   justify-content: center;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+   color: rgb(0, 0, 0);
+}
+.item{
+  display:flex;
+  justify-items: flex-start;
+  padding-right: 10px;
+      margin-top: 30px;
+      gap:20px;
+
+}
+a{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+
+
+    
+}
+button{
+    display: flex;
+    align-items: center;
+    background: #ba2c2c;
+    border-radius: 10px;
+    padding: 8px 12px;
+    
+    
+}
+#search{
+    border-radius: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration-color: black;
+    background: linear-gradient(8888deg, #e21830, #faeded);
+color: black;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:200px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.container img {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
